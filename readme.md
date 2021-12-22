@@ -16,6 +16,13 @@ The need to maintain a serverless infrastructure with minimal maintainance neede
 To build the infrastructure as code **Terraform** was used and to automate the various process a **bash script** should be used
 
 <!--Headings -->
+# Steps
+
+<!--OL -->
+1. Deploy the Infra repo first of all, with setup a codepipeline, which is triggered when a code is upload or modified in the code commit. Github can be intergrated but would need codeconnection.
+1. Push the Serverless code to the code commit repository which automatically deploy the resources and the lambda script can be further modified.
+
+<!--Headings -->
 # Prerequisites
 <!-- body -->
 ##
